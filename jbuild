@@ -1,0 +1,5 @@
+(jbuild_version 1)
+
+(executable
+ ((name example_server)
+  (libraries (lwt lwt.unix cohttp cohttp-lwt-unix))))
